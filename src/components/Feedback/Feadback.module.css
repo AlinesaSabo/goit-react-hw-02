@@ -1,0 +1,34 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  gap: 5px;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.feedback p {
+  margin: 10px 0;
+  color: #333;
+  border: 2px solid #555454;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgba(133, 133, 133, 0.438);
+}
+
+.feedback p:nth-child(1) {
+  color: #00ff00;
+}
+
+.feedback p:nth-child(2) {
+  color: #ffff00;
+}
+
+.feedback p:nth-child(3) {
+  color: #ff0000;
+}
+
+.feedback p:nth-child(4),
+.feedback p:nth-child(5) {
+  color: #0000ff;
+}

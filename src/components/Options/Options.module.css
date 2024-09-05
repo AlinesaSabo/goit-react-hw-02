@@ -1,0 +1,16 @@
+.div_button {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  button {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+
+    color: aliceblue;
+    border-style: none;
+  }
+}
