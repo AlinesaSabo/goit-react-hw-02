@@ -1,10 +1,6 @@
 import s from "./Feadback.module.css";
 
-const Feedback = ({ feedback, totalFeedback }) => {
-  const positivePercentage = totalFeedback
-    ? Math.round((feedback.good / totalFeedback) * 100)
-    : 0;
-
+const Feedback = ({ feedback, totalFeedback, positivePercentage }) => {
   return (
     <div className={s.feedback}>
       <p>Good: {feedback.good}</p>
